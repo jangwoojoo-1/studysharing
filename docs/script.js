@@ -101,7 +101,7 @@ db.collection("posts")
         <div class="post-content">${marked.parse(post.content)}</div>
         <div class="post-actions">
           ${post.author === document.getElementById("author").value ? `
-            <button onclick="editPost('${id}', ${JSON.stringify(post)})">수정</button>
+            <button onclick="editPost('${id}', {title: '${post.title}', content: '${post.content}'})">수정</button>
             <button onclick="deletePost('${id}')">삭제</button>
           ` : ""}
         </div>
