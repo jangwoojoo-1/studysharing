@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>커뮤니티 게시판</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore.js"></script>
+</head>
+<body>
+  <h1>📌 커뮤니티 게시판</h1>
+
+  <form id="post-form">
+    <input type="text" id="title" placeholder="제목" required />
+    <textarea id="content" placeholder="내용" required></textarea>
+    <button type="submit">글 작성</button>
+  </form>
+
+  <hr />
+  <div id="posts"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
