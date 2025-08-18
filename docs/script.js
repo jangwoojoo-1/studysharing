@@ -1,11 +1,11 @@
 // 🔥 Firebase 설정 (자신의 Firebase 설정 정보로 교체)
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDF4HvqyvdAtzxIfAVjbMYCXVWZagvR5J8",
+  authDomain: "studysharing-board-db.firebaseapp.com",
+  projectId: "studysharing-board-db",
+  storageBucket: "studysharing-board-db.firebasestorage.app",
+  messagingSenderId: "705246459520",
+  appId: "1:705246459520:web:bc773a33cd61b1f3fcd865"
 };
 
 firebase.initializeApp(firebaseConfig);
